@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333; /* Set background color to #333 */
+    font-size: 1.2em; /* Set font size to 1.2em */
+    padding: 1em; /* Add padding around the navbar */
+    text-align: center; /* Center-align the text */
+    position: fixed; /* Set position to fixed */
+    width: 100%; /* Set width to 100% */
+    top: 0; /* Set top to 0 */
+    z-index: 1000; /* Set z-index to 1000 */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .navbar ul li {
+    display: inline; /* Set list items to display inline */
+    margin: 0 1em; /* Add margin between list items */
+  }
+  
+  .navbar ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding-top: 5em; /* Add padding to the top to prevent overlap with navbar */
+  }
+  
+  section {
+    padding: 2em 1em; /* Add padding of 2em 1em for sections */
+    text-align: center; /* Center-align the text */
+  }
+  
+  #home h1 {
+    font-size: 2.5em; /* Increase the font size of the main heading */
+    margin-bottom: 0.5em; /* Add margin below the heading */
+  }
+  
+  #home p {
+    font-size: 1.2em; /* Set the paragraph font size to 1.2em */
+    color: #666; /* Set paragraph color to #666 */
+  }
+  
+  /* Portfolio Section */
+  .portfolio-container {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Space out items evenly within the container */
+    padding: 1em; /* Adds padding around the container */
+  }
+  
+  .portfolio-item {
+    background-color: #fff; /* Set background color to white */
+    border: 1px solid #ddd; /* Add a light gray border */
+    margin: 1em; /* Adds margin around each portfolio item */
+    padding: 1em; /* Add padding inside each item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apply a soft box shadow */
+    width: 30%; /* Set the width of each item to 30% of the container */
+    box-sizing: border-box; /* Include padding and border in the total width/height calculation */
+    transition: transform 0.3s; /* Apply a smooth transition for the transform property */
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.05); /* Scale the item by 1.05 (5% larger) when hovered */
+  }
+  
+  .portfolio-item h3 {
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0.5em; /* Add space below the heading */
+  }
+  
+  .portfolio-item p {
+    margin-bottom: 0.5em; /* Add space below the paragraph */
+    color: #666; /* Set the text color to a medium gray */
+  }
+  
+  .portfolio-item img {
+    width: 100%; /* Make the image fill the width of the item */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Apply a subtle box shadow to the image */
+  }
+  
+  /* Footer */
+  #footer {
+    background-color: #222; /* Set the background color to dark gray */
+    color: #fff; /* Set the text color to white */
+    padding: 2em; /* Add padding around the footer */
+    text-align: center; /* Center-align the text */
+    position: relative; /* Set the position to relative */
+    bottom: 0; /* Set the footer to the bottom of its container */
+    width: 100%; /* Ensure the footer takes up the full width of the page */
+  }
+  
